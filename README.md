@@ -32,6 +32,8 @@ A 4-channel (2 devices × IN/OUT) 0–5V DC voltmeter with a premium industrial 
 
 ## 🔌 Wiring Guide
 
+For a highly detailed, step-by-step breadboarding tutorial and safety instructions, please see the [**Detailed Wiring Guide**](WIRING.md).
+
 ### Display (Built-in — No Wiring Needed)
 
 The ST7789 SPI display is built into the Waveshare ESP32-S3 board. These pins are used internally:
@@ -128,8 +130,6 @@ The firmware multiplies the ADC reading back by `(R1 + R2) / R2 = 1.667` to reco
                     │      └──────────┘        │
                     └──────────────────────────┘
 ```
-
-![Wiring Diagram](docs/wiring_diagram.png)
 
 ### Wiring One Channel (Example: Device A IN → GPIO 4)
 
