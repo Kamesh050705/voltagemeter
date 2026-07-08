@@ -245,6 +245,8 @@ esp32s3_dc_voltmeter/
 ├── adc_task.h / .cpp           # FreeRTOS ADC sampling + EMA filter
 ├── ui.h / .cpp                 # Premium industrial dashboard UI
 ├── lv_conf.h                   # LVGL configuration
+├── WIRING.md                   # Detailed wiring guide
+├── FLOWCHART.md                # System architecture flowchart
 └── README.md                   # This file
 ```
 
